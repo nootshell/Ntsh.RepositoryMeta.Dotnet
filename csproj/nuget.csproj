@@ -1,0 +1,13 @@
+<Project>
+
+	<PropertyGroup>
+		<PackRelease>true</PackRelease>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Authors>nootshell</Authors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="/" />
+	</ItemGroup>
+
+</Project>
